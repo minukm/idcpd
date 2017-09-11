@@ -192,8 +192,8 @@ h3 {
         display:none;
     }
      .navbutton{
-        background-color: #000;
         color:#fff;
+        border-radius: 35px;
     }
     
     a.animated-button:link, a.animated-button:visited {
@@ -201,7 +201,7 @@ h3 {
 	display: block;
 /*	margin: 30px auto 0;*/
 	padding: 14px 15px;
-	color: #fff;
+	color: #000;
 	font-size:14px;
 	font-weight: bold;
 	text-align: center;
@@ -209,8 +209,11 @@ h3 {
 	text-transform: uppercase;
 	overflow: hidden;
 	letter-spacing: .08em;
-	border-radius: 35px;
+	border-radius: 0;
 	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+}
+    a.animated-button.victoria-two {
+	border: 2px solid #000;
 }
 }
 @media only screen and (min-device-width: 767px) {
