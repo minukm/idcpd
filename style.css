@@ -79,7 +79,7 @@ body, html {
 }
 .separator{
     color: #777;
-    background-color:#000;
+    background-color:#181818;
     text-align:center;
     padding:50px 80px;
     text-align: center;
@@ -182,7 +182,15 @@ h3 {
   }
 }
 */
+.back{
+    background-image: url(Design1.jpg);
+       height: 100%; 
 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 @media only screen and (max-device-width: 767px) {
     .bgimg-1, .bgimg-2, .bgimg-3 {
@@ -201,7 +209,7 @@ h3 {
 	display: block;
 /*	margin: 30px auto 0;*/
 	padding: 14px 15px;
-	color: #000;
+	color: #202020;
 	font-size:14px;
 	font-weight: bold;
 	text-align: center;
@@ -213,7 +221,7 @@ h3 {
 	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
 }
     a.animated-button.victoria-two {
-	border: 2px solid #000;
+	border: 2px solid #202020;
 }
 }
 @media only screen and (min-device-width: 767px) {
@@ -277,7 +285,7 @@ a.animated-button:link, a.animated-button:visited {
 	display: block;
 /*	margin: 30px auto 0;*/
 	padding: 14px 15px;
-	color: #000;
+	color: #202020;
 	font-size:14px;
 	border-radius: 0;
 	font-weight: bold;
@@ -296,10 +304,10 @@ a.animated-button:link, a.animated-button:visited {
 /* Victoria Buttons */
 
 a.animated-button.victoria-two {
-	border: 2px solid #000;
+	border: 2px solid #202020;
 }
 a.animated-button.victoria-two:after {
-	background: #000;
+	background: #202020;
 	-moz-transform: translateX(-50%) translateY(-50%) rotate(25deg);
 	-ms-transform: translateX(-50%) translateY(-50%) rotate(25deg);
 	-webkit-transform: translateX(-50%) translateY(-50%) rotate(25deg);
